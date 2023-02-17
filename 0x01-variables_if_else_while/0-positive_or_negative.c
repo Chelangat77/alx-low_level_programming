@@ -4,6 +4,8 @@
 
 /* more headers goes there */
 
+/* main - Entry point */
+
 /* betty style doc for function main goes there */
 int main(void)
 
@@ -14,13 +16,13 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
 {
-	printf("%d \n", n);
+	printf("%d", n);
 }
 	if (n > 0)
 	{
 		printf("is positive\n");
 	}
-	else if ((n = 0))
+	if ((n = 0))
 	{
 		printf("is zero\n");
 	}
