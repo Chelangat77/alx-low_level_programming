@@ -7,6 +7,7 @@
  * Return: 0 - Success
  */
 int main(void)
+
 {	int i = 97;
 
 	while (i < 123)
@@ -14,6 +15,7 @@ int main(void)
 {
 	_putchar("%c ", i);
 	i++;
+	_putchar("\n");
 }
 	return (0);
 }
