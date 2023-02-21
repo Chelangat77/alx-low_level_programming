@@ -2,17 +2,18 @@
 
 /**
  * print_alphabet - Entry point
- * Description: a function that prints the alphabet,
+ * Description: a function that prints the alphabet10 times,
  * in lowecase followed by a new line
  * Return: void
  */
 
-void print_alphabet(void)
+void print_alphabet_x10(void);
 
-{	int i = 97;
+{
+	int a = 0;
+	int i = 97;
 
-	while (i < 123)
-
+	while (a < 10)
 {
 	char b = i;
 
@@ -20,5 +21,4 @@ void print_alphabet(void)
 	i++;
 }
 	putchar('n');
-
 }
