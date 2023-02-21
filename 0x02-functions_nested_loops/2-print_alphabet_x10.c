@@ -1,24 +1,21 @@
 #include "main.h"
 
 /**
- * print_alphabet - Entry point
- * Description: a function that prints the alphabet10 times,
- * in lowecase followed by a new line
- * Return: void
+ *Description: to print the alphabets 10 times
+ *void is success
  */
 
-void print_alphabet_x10(void);
-
+void print_alphabet_x10(void)
 {
 	int a = 0;
 	int i = 97;
 
 	while (a < 10)
-{
-	char b = i;
-
-	putchar(b);
-	i++;
-}
-	putchar('n');
+	{
+		{do(i < 123)
+		putchar(i);
+		}
+		_putchar('\n');
+		a++;
+	}
 }
