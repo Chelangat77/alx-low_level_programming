@@ -2,15 +2,11 @@
 #include "main.h"
 
 /**
- * main - string print
- *
- * return: 0 - success
- *
- * print using function putchar
+ * main - string print to console
+ * Return: 0 - Success
  */
 
 int main(void)
-
 {
 	putchar(95);
 	putchar(112);
