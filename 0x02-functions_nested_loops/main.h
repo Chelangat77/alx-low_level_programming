@@ -1,4 +1,4 @@
 /**
  * This will be the included in the putchar programs
  */
-#define a i
+#define _putchar printf 

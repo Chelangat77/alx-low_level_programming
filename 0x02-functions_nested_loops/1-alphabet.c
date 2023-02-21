@@ -2,17 +2,18 @@
 #include <stdio.h>
 
 /**
- * main - check the code
+ * main - prnt string console
  *
  * Return: 0 - Success
  */
 int main(void)
+{	int a = 97;
 
-
-	for (i = 97; i < 122; i++)
+	while (a < 123)
 
 {
-	putchar(i);
-	putchar(\n);
+	_putchar("%c \n", a);
+	a++;
+}
 	return (0);
 }
