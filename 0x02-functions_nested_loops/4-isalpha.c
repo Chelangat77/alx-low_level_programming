@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * int _isalpha - Entry point
+ * isalpha - Entry point
  *
  * Description: checks is a character is lowercase with cinditional if
  *
