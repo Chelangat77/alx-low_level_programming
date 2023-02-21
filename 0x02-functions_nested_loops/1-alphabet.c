@@ -7,13 +7,13 @@
  * Return: 0 - Success
  */
 int main(void)
-{	int a = 97;
+{	int i = 97;
 
-	while (a < 123)
+	while (i < 123)
 
 {
-	_putchar("%c \n", a);
-	a++;
+	_putchar("%c ", i);
+	i++;
 }
 	return (0);
 }
