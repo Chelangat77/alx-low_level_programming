@@ -15,6 +15,6 @@ if (i < 0)
 {
 	lt = lt * -1;
 }
-_putchar(lt);
+_putchar(lt + '0');
 	return (lt);
 }
