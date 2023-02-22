@@ -1,25 +1,26 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * print_alphabet - Entry point
- * Description: a function that prints the alphabet,
- * in lowecase followed by a new line
+ * print_alphabet - main entry point
+ *
+ * Description: a function that prints the alphabets in small letters
+ *
+ * allowed use of _putchar twice
+ *
  * Return: void
  */
 
 void print_alphabet(void)
 
-{	int i = 97;
+{	int i = 97; /*this is the ASCII value for a */
 
-	while (i < 123)
+	for (i = 97; i < 122; i++)
 
 {
-	char b = i;
+	char a = i;
 
-	putchar(b);
-	i++;
+	_putchar(i);
 }
-	putchar('n');
+	_putchar('\n');
 
 }
