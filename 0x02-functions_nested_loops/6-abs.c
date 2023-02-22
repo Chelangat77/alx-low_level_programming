@@ -4,7 +4,7 @@
  * _abs - main entry point
  * description: function generates absolute value
  * @i: integer
- * Return: void
+ * Return: int
  */
 
 int _abs(int i)
@@ -14,12 +14,7 @@ if (i < 0)
 	return (i * -1);
 }
 
-if (i == 0)
-{
-	return (1);
-}
-
-if (i > 0)
+else
 {
 	return (i);
 }
