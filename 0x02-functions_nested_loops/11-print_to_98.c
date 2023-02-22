@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * @n: variable
- * Return: void
+ * print_to_98 - Prints to 98
+ * @n: starting point
+ * Return: 0 success
  */
 
 void print_to_98(int n)
