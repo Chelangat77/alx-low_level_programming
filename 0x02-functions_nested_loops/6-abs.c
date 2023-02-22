@@ -3,13 +3,24 @@
 /**
  * _abs - main entry point
  * description: function generates absolute value
- * @i: i is an integer
+ * @i: integer
  * Return: void
  */
 
 int _abs(int i)
 {
-i = _abs;
+if (i < 0)
+{
+	return (i);
+}
 
-	_putchar('i');
+if (i == 0)
+{
+	return (i);
+}
+
+if (i > 0)
+{
+	return (i);
+}
 }
