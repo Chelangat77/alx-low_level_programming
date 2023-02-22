@@ -1,26 +1,33 @@
 #include "main.h"
 
 /**
- * isalpha - Entry point
+ * _isalpha - Entry point
  *
- * Description: checks is a character is lowercase with cinditional if
+ * Description: checks is the output is a letter
  *
  * @c: the integer value it receives
  *
  * Return: 1 if true. 0 if false.
  */
+
 int _isalpha(int c)
 {
-	if (c >= 'a' && c <= 'z')
+	int i = 'a';
+	int y = 'A';
+
+	for (i = 'a'; i <= 'z'; i++)
 	{
+	if (c == 1)
+
 	return (1);
 	}
-	else if (c >= 'A' && c <= 'Z')
+
+	for (y = 'A'; y <= 'Z'; y++)
 	{
-		return (1);
+	if (c == y)
+
+	return (1);
 	}
-	else
-	{
+
 		return (0);
-	}
 }
