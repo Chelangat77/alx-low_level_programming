@@ -12,14 +12,13 @@
 
 void print_alphabet(void)
 
-{	int i = 97;
-       	/*this is the ASCII value for a */
+{	char ch = 'a';/*this is the ASCII value for a */
 
-	for (i = 97; i <= 122; i++)
+	for (ch = 'a'; ch <= 'z'; ch++)
 
 {
-	_putchar(i);
-	i++;
+	_putchar(ch);
+	ch++;
 }
 	_putchar('\n');
 
