@@ -12,7 +12,8 @@
 
 void print_alphabet(void)
 
-{	int i = 97; /*this is the ASCII value for a */
+{	int i = 97;
+       	/*this is the ASCII value for a */
 
 	for (i = 97; i <= 122; i++)
 
