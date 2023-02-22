@@ -13,7 +13,7 @@ int lt = i % 10;
 
 if (i < 0)
 {
-	lt = (lt * -1);
+	lt = lt * -1;
 }
 _putchar(lt);
 	return (lt);
