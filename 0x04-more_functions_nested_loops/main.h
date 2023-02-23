@@ -1,9 +1,8 @@
 /**
- * This main shall be used as main entry point for task 4
+ * This main shall be used as main entry point for task four
  *
  */
-
-#define putchar _putchar
+int _putchar(char c);
 
 int _isupper(int c);
 int _isdigit(int c);
