@@ -1,3 +1,8 @@
+/**
+ * This main shall be used as main entry point for task 4
+ *
+ */
+
 #define putchar _putchar
 
 int _isupper(int c);
