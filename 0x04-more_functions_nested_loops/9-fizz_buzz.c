@@ -7,31 +7,32 @@
 
 int main(void)
 {
-	int s = 1;
-	while (s <= 100)
+	int i = 1;
+
+	while (i <= 100)
 	{
-		if (s % 3 == 0 && s % 5 == 0)
+		if (i % 3 == 0 && i % 5 == 0)
 		{
 			printf("FizzBuzz");
 		}
-		if (s % 3 == 0)
+		else if (i % 3 == 0)
 		{
 			printf("Fizz");
 		}
-		if (s % 5 == 0)
+		else if (i % 5 == 0)
 		{
 			printf("Buzz");
 		}
 		else
 		{
-			printf("%d ", s);
+			printf("%i", i);
 		}
-		if (s != 100)
+		if (i != 100)
 		{
 			putchar(' ');
 		}
 
-		s++;
+		i++;
 	}
 	putchar('\n');
 	return (0);
