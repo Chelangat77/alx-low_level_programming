@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	int n;
+	int n = 0;
 	int *p = &n;
 	{
 		printf("%d \n", n);
