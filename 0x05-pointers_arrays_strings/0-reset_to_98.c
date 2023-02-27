@@ -10,7 +10,6 @@
 int main(void)
 {
 	int n = 0;
-	int *p = &n;
 	{
 		printf("n=%d \n", n);
 	}
