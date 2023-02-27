@@ -10,7 +10,7 @@
 void rev_string(char *s)
 {
 	int y = 0;
-	int a;
+	int a, b;
 
 	while (*s != '\0')
 	{
@@ -18,6 +18,11 @@ void rev_string(char *s)
 		s++;
 	}
 	s -= 1;
-	for (a = 0; a < y; a++)
-		(*(s - a));
+	for (a = 0, b = y - 1; a < b; a++, b--)
+	{
+		char temp = s[a];
+
+		s[a] = s[b];
+		s[b] = temp;
+	}
 }
