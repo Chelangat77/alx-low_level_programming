@@ -12,11 +12,11 @@ int main(void)
 	int n = 0;
 	int *p = &n;
 	{
-		printf("%d \n", n);
+		printf("n=%d \n", n);
 	}
 	*p = 98;
 	{
-		printf("%d \n", n);
+		printf("n=%d \n", n);
 	}
 	return (0);
 }
