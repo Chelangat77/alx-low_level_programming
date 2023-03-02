@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *_strcat: is the main entry point for function concatenates 2 strings
+ * _strcat - concatenates @src to @des
  * Return: dest
  * @dest: dest is a is pointer to the destination array
  * @src: src is is the string to be appended
