@@ -8,10 +8,16 @@
 
 void print_number(int n)
 {
-	while (n = 0)
+	unsigned int num = n;
+
+	while (n < 0)
 	{
-		n++;
-		n--;
+		_putchar('-');
+		num = -num;
 	}
-	_putchar('n');
+
+	while ((num / 10) > 0)
+		print_number(num / 10);
+
+	_putchar((num % 10) + '0');
 }
