@@ -5,14 +5,18 @@
  * @s - s is the pointer
  * @n - n is bytes of the memory area pointed to
  * @b - b is the constant byte
- * Return:  void
+ * Return: s
  */
 
 char *_memset(char *s, char b, unsigned int n)
 {
-	n = 0;
+	unsigned int x = 0;
 
-	for (n = 0; n < b; n++)
+	while (x < n)
 	{
-		(n % 10 && n);
+		s[x] = b;
+		x++;
 	}
+
+	return (s);
+}
