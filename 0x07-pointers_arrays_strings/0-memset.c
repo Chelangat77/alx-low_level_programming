@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * *_memset:  fills memory with a constant byte
- * @s - s is the pointer
- * @n - n is bytes of the memory area pointed to
- * @b - b is the constant byte
+ * _memset - fills memory with a constant byte
+ * @s: s is the pointer
+ * @n: n is bytes of the memory area pointed to
+ * @b: b is the constant byte
  * Return: s
  */
 
