@@ -3,7 +3,7 @@
 
 /**
  * main -prints the name eof the program
- * @ argc: number of command lines
+ * @argc: number of command lines
  * @argv: array of string
  * Return: return 0
  */
