@@ -24,6 +24,7 @@ char *create_array(unsigned int size, char c)
 	{
 		c++;
 		i++;
+		x[i] = c;
 		return (x);
 	}
 	else
