@@ -22,6 +22,7 @@ char *create_array(unsigned int size, char c)
 	}
 	if (i <= size)
 	{
+		c++;
 		i++;
 		return (x);
 	}
