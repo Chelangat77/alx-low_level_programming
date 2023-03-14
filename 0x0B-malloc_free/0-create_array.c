@@ -23,6 +23,7 @@ char *create_array(unsigned int size, char c)
 	if (i <= size)
 	{
 		i++;
+		x[i] = '\0';
 		return (x);
 	}
 	else
