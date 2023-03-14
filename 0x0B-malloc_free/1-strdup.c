@@ -10,21 +10,24 @@
 
 char *_strdup(char *str)
 {
-	unsigned int size;
-	unsigned int x = 0;
-	char dst;
-
-	str = malloc((sizeof(dst)) * size);
+	char *copy;
+	int index, length = 0;
 
 	if (str == NULL)
-	{
 		return (NULL);
-	}
-	if (x <= str)
-	{
-		x++;
-		dst = str;
-	}
-	return (str);
-}
 
+	for (index = 0; str[index]; index++)
+		length++;
+
+	copy = malloc(sizeof(char) * (length + 1));
+
+	if (copy == NULL)
+		return (NULL);
+
+	for (index = 0; str[index]; index++)
+		copy[index] = str[index];
+
+	copy[length] = '\0';
+
+	return (copy);
+}
