@@ -13,10 +13,14 @@ void *malloc_checked(unsigned int b)
 	void *R;
 
 	R = (int *)malloc(b * (sizeof(int)));
-	return (R);
 
-	if (R == 0)
+	if (R == NULL)
 	{
 		exit(98);
+	}
+	
+	else
+	{
+		return (R)
 	}
 }
