@@ -12,15 +12,12 @@ void *malloc_checked(unsigned int b)
 {
 	void *R;
 
-	R = (int *)malloc(b * (sizeof(int)));
+	R = malloc(b);
 
 	if (R == NULL)
 	{
 		exit(98);
 	}
 	
-	else
-	{
-		return (R)
-	}
+return (R);
 }
