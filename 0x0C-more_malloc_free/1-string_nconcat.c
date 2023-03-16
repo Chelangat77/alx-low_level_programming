@@ -38,7 +38,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		return (dst);
 	}
 
-	if (s1 == NULL)
+	if (dst == NULL)
 	{
 		return (NULL);
 	}
