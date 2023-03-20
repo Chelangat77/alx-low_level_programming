@@ -2,7 +2,10 @@
 #define DOG_H
 
 /**
- * struct - data type 
+ * struct dog - data type describing dog
+ * @name: character variable
+ * @owner: character variable
+ * @age: float variable
  */
 
 struct dog
@@ -11,6 +14,7 @@ struct dog
 	char *owner;
 	float age;
 };
+
 typedef struct dog dog_t;
 void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
