@@ -1,4 +1,5 @@
-#include "links.h"
+#include <stdlib.h>
+#include "lists.h"
 #include <string.h>
 #include <stdio.h>
 
@@ -11,47 +12,28 @@
 
 list_t *add_node_end(list_t **head, const char *str)
 {
-	char *d_str;
-	list_t *new, *last;
+	list_t *new;
+	list_t *cur;
 
 	new = malloc(sizeof(list_t));
-	if (!new)
+	if (new == NULL)
 		return (NULL);
-
-	d_str = strdup(str);
-	if (!str)
-	{
-		free(new);
-		return(NULL);
-	}
-
-	new->str = d_str;
-	new->len =strlen(str);
+	new->str = strdup(str);
+	new->len = strlen(str);
 	new->next = NULL;
 
-	if (!*head)
-		*head = new
-
+	if (*head == NULL)
+	{
+		*head = new;
+	}
 	else
 	{
-		last = *head:
-		while (last->next)
-			last = last->next;
-		last->next = new
+		cur = *head;
+		while (cur->next != NULL)
+		{
+			cur = cur->next;
+		}
+		cur->next = new;
 	}
-
-	return (*head);
-
-/**
- * _strlen - returns the length of a string
- * @s: the string whose length is to be determined
- * Return: the length of s
- */
-int _strlen(const char *s)
-{
-	int i = 0;
-
-	while (*s++)
-		i++;
-	return (i);
+	return (new);
 }
