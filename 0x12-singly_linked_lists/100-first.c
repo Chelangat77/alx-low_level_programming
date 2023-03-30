@@ -3,6 +3,8 @@
 int print(void);
 
 /**
+ * print - prints string
+ * Return: void
  */
 
 int print(void)
