@@ -14,14 +14,14 @@ listint_t *add;
 
 add = malloc(sizeof(listint_t));
 
+if (add == NULL)
+{
+return (NULL);
+}
+
 add->n = n;
 add->next = *head;
 *head = add;
 
 return (add);
-
-if (add == NULL)
-{
-        return (NULL);
-}
 }
