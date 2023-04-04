@@ -22,10 +22,7 @@ return (NULL);
 add->n = n;
 add->next = NULL;
 
-if (*head == NULL)
-	{
-		*head = add;
-	}
+*head = add;
 
 return (add);
 }
