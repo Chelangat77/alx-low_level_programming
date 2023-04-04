@@ -10,11 +10,10 @@
  * Returns: 1 if it succeeded, -1 if it failed
  */
 
-
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
 {
 	listint_t *fr, *c = *head;
-	unsigned int node;
+	unsigned int node = 0;
 
 	if (c == NULL)
 		return (-1);
@@ -26,7 +25,7 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 		return (1);
 	}
 
-	while (node < (index -1))
+	while (node < (index - 1))
 	{
 		node++;
 		if (c->next == NULL)
@@ -38,4 +37,4 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 	c->next = fr->next;
 	free(fr);
 	return (1);
-}			
+}
