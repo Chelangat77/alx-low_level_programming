@@ -5,7 +5,8 @@
  * read_textfile - reads a text file and prints it
  * @filename: pointer to file
  * @letters: variable on string char for file
- * @Return: the actual number of letters it could read and print
+ * @Return: 0 if filename is NULL.
+ * O/w - actual no. of bytes the funcion can read or print
  */
 
 ssize_t read_textfile(const char *filename, size_t letters)
